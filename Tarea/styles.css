@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+main{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+h1{
+    font-size: 30px;
+    color: rgb(190, 182, 182);
+}
+
+.header-span{
+    font-size: 20px;
+    color: rgb(190, 182, 182);
+}
+
+h2{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+ul{
+    list-style-type: none;
+    border: tomato solid 2px;
+}
