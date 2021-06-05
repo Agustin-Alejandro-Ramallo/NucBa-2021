@@ -112,7 +112,7 @@ section .primer-contenedor div:nth-of-type(4):hover {
           animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-section div:nth-of-type(5) {
+section .primer-contenedor div:nth-of-type(5) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,12 +121,12 @@ section div:nth-of-type(5) {
           justify-content: center;
 }
 
-section div:nth-of-type(5):hover {
+section .primer-contenedor div:nth-of-type(5):hover {
   -webkit-animation: shadow 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
           animation: shadow 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
 
-.segundo-contenedor {
+section .segundo-contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,21 +140,21 @@ section div:nth-of-type(5):hover {
   margin-right: 30px;
 }
 
-.segundo-contenedor div {
+section .segundo-contenedor div {
   margin-bottom: 30px;
 }
 
-.segundo-contenedor div:nth-of-type(1):hover {
+section .segundo-contenedor div:nth-of-type(1):hover {
   -webkit-animation: animation-beat 1s linear infinite alternate;
           animation: animation-beat 1s linear infinite alternate;
 }
 
-.segundo-contenedor div:nth-of-type(2):hover {
+section .segundo-contenedor div:nth-of-type(2):hover {
   -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
           animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-.segundo-contenedor div:nth-of-type(3):hover {
+section .segundo-contenedor div:nth-of-type(3):hover {
   -webkit-animation-name: flo;
           animation-name: flo;
   -webkit-animation-duration: 5s;
@@ -163,7 +163,7 @@ section div:nth-of-type(5):hover {
           animation-iteration-count: infinite;
 }
 
-.tercer-contenedor {
+section .tercer-contenedor {
   margin-right: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,12 +173,11 @@ section div:nth-of-type(5):hover {
           align-items: flex-end;
 }
 
-.tercer-contenedor:hover {
-  -webkit-animation: flip .5s linear both;
-          animation: flip .5s linear both;
+section .tercer-contenedor:hover {
+  animation: flip .5s linear both alternate-reverse;
 }
 
-.cuarto-contenedor {
+section .cuarto-contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -191,7 +190,7 @@ section div:nth-of-type(5):hover {
           justify-content: flex-end;
 }
 
-.cuarto-contenedor div:nth-of-type(1) {
+section .cuarto-contenedor div:nth-of-type(1) {
   margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,12 +200,12 @@ section div:nth-of-type(5):hover {
           justify-content: flex-end;
 }
 
-.cuarto-contenedor div:nth-of-type(1):hover {
+section .cuarto-contenedor div:nth-of-type(1):hover {
   -webkit-animation: rotate-diagonal 0.4s linear both;
           animation: rotate-diagonal 0.4s linear both;
 }
 
-.cuarto-contenedor div:nth-of-type(2) {
+section .cuarto-contenedor div:nth-of-type(2) {
   margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,7 +215,7 @@ section div:nth-of-type(5):hover {
           justify-content: center;
 }
 
-.cuarto-contenedor div:nth-of-type(2):hover {
+section .cuarto-contenedor div:nth-of-type(2):hover {
   -webkit-animation-name: flo;
           animation-name: flo;
   -webkit-animation-duration: 5s;
@@ -225,7 +224,7 @@ section div:nth-of-type(5):hover {
           animation-iteration-count: infinite;
 }
 
-.cuarto-contenedor div:nth-of-type(3) {
+section .cuarto-contenedor div:nth-of-type(3) {
   margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -235,12 +234,12 @@ section div:nth-of-type(5):hover {
           justify-content: center;
 }
 
-.cuarto-contenedor div:nth-of-type(3):hover {
+section .cuarto-contenedor div:nth-of-type(3):hover {
   -webkit-animation: shadow 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
           animation: shadow 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
 
-.quinto-contenedor {
+section .quinto-contenedor {
   margin-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -252,6 +251,11 @@ section div:nth-of-type(5):hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+section .quinto-contenedor:hover {
+  -webkit-animation: flip .5s linear both;
+          animation: flip .5s linear both;
 }
 
 @-webkit-keyframes animation-beat {

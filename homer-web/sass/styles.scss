@@ -63,7 +63,7 @@ section{
             margin-bottom: 20px;
         }
         div:nth-of-type(4):hover{
-            animation:slide-left .5s cubic-bezier(.25,.46,.45,.94) both}
+            animation:slide-left .5s cubic-bezier(.25,.46,.45,.94) both
         }
         
         div:nth-of-type(5){
@@ -101,7 +101,7 @@ section{
         
     }
     .tercer-contenedor:hover{
-        animation: flip .5s linear both;
+        animation: flip .5s linear both alternate-reverse;
     }
     .cuarto-contenedor{
         display: flex;
@@ -140,7 +140,10 @@ section{
         justify-content: space-between;
         flex-direction: column;
     }
-
+    .quinto-contenedor:hover{
+        animation: flip .5s linear both;
+    }
+}
 
 @keyframes animation-beat {
     0%{transform: scale(.8);}
