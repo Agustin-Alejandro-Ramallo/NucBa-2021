@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(72, 134, 10);
+    animation-name: div-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+
+}
+@keyframes div-animation {
+    from {
+        margin-left: 100%;
+    }
+    50%{
+        background: royalblue;
+        transform: rotate(40deg);
+        border-radius: 50%;
+    }
+    to{
+        margin-left: 0;
+    }
+}
